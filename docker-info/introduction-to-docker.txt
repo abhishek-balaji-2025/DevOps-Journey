@@ -26,7 +26,38 @@ In micro-services architecture, the entire application code (production code) is
 One of the drawbacks of monolithic architecture is that, due to internal dependencies between modules. Even if one module experiences an issue the entire application code is at risk of failure.
 A single bug can compromise the entire application
 
+What is virtualization?
 
+It is the practice of creating a virtual eco-system that contains multiple virtual machines where each VM is running its own operating system. All of this is managed by the hypervisor. The main purpose of the hypervisor is used to allocate and distribute virtual hardware resources to numerours virtual machines based on their needs and requirements.
+
+There are 2 types of virtualization:
+
+a) Bare-metal hypervisors
+b) Hosted Hypervisors
+
+What is containerization?
+
+Containerization is a technology that packages and deployes application code fragments into individual services on isolated containers. Each service handling a specific function and communicating with each other forming the entire application.
+
+I use Ubuntu OS, to install the software package execute the code below
+
+update the existing system packages using the sudo apt update -y command
+
+Once done, go ahead and install the docker application using the following command
+
+sudo apt install docker.io -y
+
+To check whether the service is actively running or not
+
+sudo systemctl status docker
+
+To start running the service, use this command
+
+sudo systemctl start docker
+
+To check the version, run this command
+
+docker --version
 
 
 
