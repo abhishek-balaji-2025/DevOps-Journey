@@ -21,7 +21,7 @@ Step-4: Push the local branch to the remote branch
 	Using the command, git push origin <local-branch-name>:<remote-branch-name> or git push origin <remote-branch-name>
 
 Step-5: Now, switch to github to complete the entire workflow process
-	switch to the remote branch and create a new Pull request (PR). Wait for the reveiwer to analyze the end product. If there are no errors in the final production code it will be merged into the master/main branch
+	switch to the remote branch and create a new Pull request (PR). Wait for the reviewer to analyze the end product. If there are no errors in the final production code it will be merged into the master/main branch
 
 
 
