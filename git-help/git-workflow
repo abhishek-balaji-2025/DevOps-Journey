@@ -1,0 +1,27 @@
+
+Git workflow instructions
+
+Once the company project repository is cloned in your local machine
+
+Step-1: remote master -> local master
+	Switch to your local master using git checkout <local-master-name>
+ 	Use the command git pull origin master to get the latest commits
+
+Step-2: local master -> local branch
+	Switch to your local branch or feature branch by executing git checkout <local-branch-name>
+	Sync the latest commits from the local master to the local branch
+	Use git rebase master
+
+Step-3: Make the necessary changes to the respective files. Stage them using git add . or git add <file-name>
+	Once staged, proceed with the commit using git commit -m "Enter message here"
+
+	Repeat step-1 & step-2, get the merge conflicts resolved manually. Do communicate with the developers back and forth on what code needs to be present or removed.
+
+Step-4: Push the local branch to the remote branch
+	Using the command, git push origin <local-branch-name>:<remote-branch-name> or git push origin <remote-branch-name>
+
+Step-5: Now, switch to github to complete the entire workflow process
+	switch to the remote branch and create a new Pull request (PR). Wait for the reveiwer to analyze the end product. If there are no errors in the final production code it will be merged into the master/main branch
+
+
+
