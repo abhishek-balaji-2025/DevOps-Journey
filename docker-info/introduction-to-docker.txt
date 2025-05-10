@@ -1,0 +1,32 @@
+Author: Abhishek Balaji
+Date of creation: 10-05-2025 / 17:25 pm
+
+What is docker?
+
+Docker is a container engine
+
+It performs 3 main functions
+a) It packages application
+b) It includes everything necessary for functioning
+c) Compatible with other operating systems
+
+To better understand docker, first we need to understand what monolithic architecture and microservices are?
+
+What is a monolithic architecture?
+
+Consider a web application, when we deploy all the modules into a single unit of production code. It is called monolithic architecture. 
+Each and every module contains a relationship with other modules in the production code. There exists a strong dependency between them. 
+
+A better way to conclude this, it is the housing of all modules together with interdependencies among each other in the production code. This approach in software development design is called monolithic arachitecture
+
+What are micro-services?
+
+In micro-services architecture, the entire application code (production code) is broken down into several parts. Where it can be developed, deployed, and managed as seperate services
+
+One of the drawbacks of monolithic architecture is that, due to internal dependencies between modules. Even if one module experiences an issue the entire application code is at risk of failure.
+A single bug can compromise the entire application
+
+
+
+
+
