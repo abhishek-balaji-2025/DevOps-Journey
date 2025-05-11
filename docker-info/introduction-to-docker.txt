@@ -59,5 +59,38 @@ To check the version, run this command
 
 docker --version
 
+# log-2 11-05-2025 / 19:44 PM
+
+* What is docker?
+
+Docker is a tool that allows users/developers to package fragments of application code and their dependencies into a single container that is compatible to run on any operating system
+
+* Docker performs 3 critical functions. They are as follows:
+
+  a) Docker packages the fragmented application code
+  b) Along with dependencies required for the application code to run smoothly, all in one container
+  c) Compatible to run on any operating system (Windows, Linux, Mac)
+
+* What is Monolithic Architecture?
+
+Based on what I learnt, monolithic architecture refers to the application code (final production code) is combined into one single unit. This approach to application development is called monolithic architecture  
+
+One thing to note is that, when you have various other modules tightly coupled together (strong dependency). Even if one module faces an issue, the entire application code is compromised.
+
+An alternative approach to overcome this problem was later introduced in 2015 called the concept of containerization
+
+* What is containerization?
+
+Containerization is the practice of packaging code and dependencies into a single container that is capable of running on various operating systems
+
+* Some docker terms every beginner needs to be aware about
+
+  1) Container - A container is a light-weight, isolated space for running the application code.
+  2) Docker Image - A docker image contains the blueprint for what will be housed inside the container. In order to create a container, a docker image needs to be created first.
+  3) Docker file - A docker file can be taught of a text file that can be used to illustrate the steps involved to create the docker image
+  4) Docker engine - It is the core component required to create, build, and run containers
+
+
+
 
 
