@@ -63,4 +63,8 @@ Here are the list of all commands that I have learnt so far with detailed inform
 
 31. git diff <commit-ID-1> <commit-ID-2> - This command is used to show the difference between two commits
 
-32. 
+32. git config --global user.email <enter email ID> - This command is used to insert user/developer email ID
+
+33. git config --global user.name <enter the username> - This command is used to display the user/developer name
+
+34.  
