@@ -1,0 +1,66 @@
+
+Here are the list of all commands that I have learnt so far with detailed information
+
+1. git clone <repository URL>  -  This command is used initially to clone the entire company project public repository. The local developer gets the latest commits, along with commit history, related branches. It is a one-time use command
+
+2. git branch                  -  This command is used to display the current branch among available branches
+
+3. git checkout <target-branch-name>  -  This command allows the developers/users to switch between branches while working
+
+4. git pull origin main        -  This command is used to get the latest commits from the remote main repository
+
+5. git remote -v               -  This command is used to display the repository URL assigned to an alias keyword
+
+6. git remote add origin <repository URL>  - This command is used to add the repository URL and assign it to an alias keyword if not present
+
+7. git checkout -b <new-branch-name> main  -  This command is used to create a new local branch out of local main and checkout into it. All of this is done within a line of command
+
+8. git add <file-name>  - This command is used to stage the untracked and modified files into the staging area ready for commit
+
+9. git add .   - This command is used to include all the files present in the working directory that are untracked and modified files into the staging area ready for commit
+
+10. git restore <file-name> - Restores the file in your working directory to the last committed state 
+
+11. git restore --staged <file-name>  - Unstages the file (removes it from staging), but keeps your changes in the working directory
+
+12. git stash  -  This command is used to stash the unstaged files into a hidden temporary location to make sure that the working tree is clean for other activities
+
+13. git stash list - This command is used to display the stash ID 
+
+14. git stash show -p stash@{0} - This command is used to display the contents in the stash list
+
+15. git stash pop - This command is used to unhide the unstaged files back 
+
+16. git commit -m "enter message here"  - This command is used to commit the staged files into the local directory with a custom commit message
+
+17. git push origin <local-branch-name>:<remote-branch>  - This command is used to push the commit changes into the remote branch from the local branch
+
+18. git ls-files -  List the files that is tracked by git
+
+19. git log  - This command is used to display the commit ID with detailed information such as username, user-email, time, and date. It is used to display when and who made the commit
+
+20. git log --oneline  - This command is used to display the commit ID with less detailed information
+
+21. git log --graph --pretty=oneline  - This command is used to provide the visual representation of commit history whether we have a liner or parallel developement
+
+22. git revert <commit-ID> - This command is used to undo the commit action and created a new commit ID
+
+23. git reset --hard <commit-ID> - This command is used to delete the commit ID from all the 3 stages (working directory, staging area, local repository)
+
+24. git reset --soft <commit-ID> - This command is used to delete the commit ID from the local repository only
+
+25. git reset --mixed <commit-ID> - This command is used to delete the commit ID from the local repository and staging area
+
+26. git rm <file-name> - This command is used to delete the file from the local repository and working directory
+
+27. git branch <branch-name> - This command is used to create a new branch/feature branch
+
+28. git stash clear - This command is used to clear the stash ID
+
+29. git push origin <branch-name> - For pushing a local branch to a remote branch with the same name
+
+30. git status - This command is used to display the current state of working directory and staging area
+
+31. git diff <commit-ID-1> <commit-ID-2> - This command is used to show the difference between two commits
+
+32. 
