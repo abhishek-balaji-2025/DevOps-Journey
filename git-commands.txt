@@ -67,4 +67,6 @@ Here are the list of all commands that I have learnt so far with detailed inform
 
 33. git config --global user.name <enter the username> - This command is used to display the user/developer name
 
-34.  
+34. git init - This command is used to initialize the tracking of the file by git
+
+ 
