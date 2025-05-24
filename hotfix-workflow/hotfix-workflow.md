@@ -1,8 +1,3 @@
-
-```
-This document outlines the standardized workflow for managing critical bug fixes in the production codebase using Git. The hotfix process ensures that urgent issues are addressed quickly and efficiently, while maintaining code integrity and smooth integration with ongoing development. Following this workflow helps teams maintain a clean and stable production environment, minimize downtime, and keep development branches up to date with the latest fixes.
-```
-
 # Hotfix Branch Workflow (Git Environment)
 
 ## Step 1:
