@@ -6,4 +6,5 @@ RUN apt install net-tools -y
 RUN mkdir /userdata
 RUN echo "Hello user :)" > /userdata/message.txt
 ENTRYPOINT ["apachectl","-D","FOREGROUND"]
+EXPOSE 80
 ENV name="developer"
